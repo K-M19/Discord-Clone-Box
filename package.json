@@ -1,7 +1,7 @@
 {
-	"name": "Discord Tools Box",
+	"name": "Discord Clone Box",
 	"version": "2022025",
-	"description": "Discord Server Cloner - (K-M19)",
+	"description": "Discord Clone Box - (K-M19)",
 	"main": "src/index",
 	"scripts": {
 		"pass": "start.bat",
