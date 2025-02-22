@@ -68,7 +68,7 @@ export function creatorname() {
   console.clear();
   console.log(
     gradient(["#7fffd4", "#76eec6", "#00ffff"])(`
-    Welcome to Project Discord Tools Box 
+    Welcome to Project Discord Clone Box  
     Project By: K-M19
     `)
   );
@@ -107,9 +107,9 @@ export function infouser(client: Client) {
 }
 
 if (process.platform === 'win32') {
-  process.title = "Discord Clone Box - Build 2022025";
+  process.title = "Discord Clone Box - Build 2322025";
 } else {
-  process.stdout.write('\x1b]2;Discord Clone Box - Build 2022025\x1b\\');
+  process.stdout.write('\x1b]2;Discord Clone Box - Build 2322025\x1b\\');
 }
 
 export async function Cloner(
@@ -151,7 +151,7 @@ export async function Cloner(
       if (createNewServer) {
 
         const newGuild = await client.guilds.create(
-          'Project Discord Tools Box'
+          'Project Discord Clone Box '
         );
 
         if (!newGuild) {

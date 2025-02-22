@@ -56,7 +56,7 @@ if (!token) {
             console.log(gradient(["red", "orange"])("Invalid token"));
           } else {
             console.clear();
-            console.error(gradient(["red", "orange"])(`Erro ao fazer login: ${error.message}`));
+            console.error(gradient(["red", "orange"])(`Error logging in: ${error.message}`));
           }
         });
     }
